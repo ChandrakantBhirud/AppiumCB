@@ -6,6 +6,7 @@ const lp = new loginpage();
 //test
 //test
 //test MB
+//Pune
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
     await lp.login(user, pwd);  
