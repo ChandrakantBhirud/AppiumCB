@@ -3,7 +3,7 @@ import loginpage from "../pages/loginPage";
 
 const lp = new loginpage();
 
-//Minakshi
+
 //Chandra
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
