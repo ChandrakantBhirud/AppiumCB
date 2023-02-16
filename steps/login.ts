@@ -3,6 +3,7 @@ import loginpage from "../pages/loginPage";
 
 const lp = new loginpage();
 
+//Minakshi 
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
     await lp.login(user, pwd);  
