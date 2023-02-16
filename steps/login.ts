@@ -6,8 +6,8 @@ const lp = new loginpage();
 //test11
 //test22
 //test33
-//Pune
-//London
+//Pune1
+//London1
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
     await lp.login(user, pwd);  
