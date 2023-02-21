@@ -4,10 +4,7 @@ import loginpage from "../pages/loginPage";
 const lp = new loginpage();
 
 
-//Chandra1
-//Minakshi1
-//Minakshi1
-//Minakshi1
+//This is branch
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
     await lp.login(user, pwd);  
