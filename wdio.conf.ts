@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './features/login.feature'
+        'src/features/login.feature'
     ],
     // Patterns to excluloginde.
     exclude: [
@@ -56,11 +56,11 @@ exports.config = {
         "appium:platformVersion": "11",
         "appium:deviceName": "HONOR",
         "appium:automationName": "UiAutomator2",
-        //"appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
+        "appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
         //"appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
       
-        "appium:appPackage": "com.wdiodemoapp",
-        "appium:appActivity": "com.wdiodemoapp.SplashActivity",
+       // "appium:appPackage": "com.wdiodemoapp",
+        //"appium:appActivity": "com.wdiodemoapp.SplashActivity",
 
     }],
     //
@@ -151,7 +151,7 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./steps/*.ts'],
+        require: ['src/steps/*.ts'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)

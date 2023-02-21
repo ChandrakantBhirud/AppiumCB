@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.19.1",
-    "appium": "^2.0.0-beta.35",
+    "appium": "^2.0.0-beta.42",
     "ts-node": "^10.7.0"
   },
   "devDependencies": {
