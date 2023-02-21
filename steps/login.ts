@@ -4,8 +4,7 @@ import loginpage from "../pages/loginPage";
 const lp = new loginpage();
 
 
-//Chandra1
-//Minakshi1
+//sorry
 
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
