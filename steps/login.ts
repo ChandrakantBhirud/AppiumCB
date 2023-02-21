@@ -6,6 +6,7 @@ const lp = new loginpage();
 
 //Chandra1
 //Minakshi1
+//ChandraMinuAdded
 
 
 Given(/^Login applcaition with (.+) and (.+)$/, async(user, pwd)=>{
