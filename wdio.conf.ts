@@ -24,7 +24,7 @@ exports.config = {
     specs: [
         './features/login.feature'
     ],
-    // Patterns to exclude.
+    // Patterns to excluloginde.
     exclude: [
         // 'path/to/excluded/files'
     ],
@@ -44,7 +44,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -56,9 +56,15 @@ exports.config = {
         "appium:platformVersion": "11",
         "appium:deviceName": "HONOR",
         "appium:automationName": "UiAutomator2",
+<<<<<<< HEAD
       // "appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
        // "appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
         //Test
+=======
+        //"appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
+        //"appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
+      
+>>>>>>> f6d4b3aef722e0f703d09a8a71a2bfced6039079
         "appium:appPackage": "com.wdiodemoapp",
         "appium:appActivity": "com.wdiodemoapp.SplashActivity",
 
@@ -111,6 +117,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: [
+<<<<<<< HEAD
         ['appium',{
 
             args:{
@@ -120,6 +127,20 @@ exports.config = {
         }]
 
 ],
+=======
+        
+        ['appium',{
+    
+        args:{
+            address: 'localhost',
+            port: 4723
+
+        },
+        logPath:'./'
+
+    }]
+    ],
+>>>>>>> f6d4b3aef722e0f703d09a8a71a2bfced6039079
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 17 10:35:32 GMT 2023","Fri Feb 17 10:35:36 GMT 2023","4155","","Feature name: Scenario Outline name: Login to the application","","Feature name: Scenario Outline name: Login to the application","Given Login applcaition with Chandu and bhirud","Given Login applcaition with Chandu and bhirud",""
+"passed","Fri Feb 17 10:35:36 GMT 2023","Fri Feb 17 10:35:36 GMT 2023","0","","Feature name: Scenario Outline name: Login to the application","","Feature name: Scenario Outline name: Login to the application","","",""
