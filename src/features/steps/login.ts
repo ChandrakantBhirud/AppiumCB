@@ -1,5 +1,5 @@
 import { Given } from "@wdio/cucumber-framework";
-import loginpage from "../pages/loginPage";
+import loginpage from "../../../pages/loginPage";
 
 const lp = new loginpage();
 
