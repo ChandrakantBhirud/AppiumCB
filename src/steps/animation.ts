@@ -1,5 +1,5 @@
 import { When } from "@wdio/cucumber-framework";
-import AnimationEvents from "../../../pages/Animation";
+import AnimationEvents from "../../pages/Animation";
 
 //chandu test
 //chandu bhai1

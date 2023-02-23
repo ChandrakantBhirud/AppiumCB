@@ -56,11 +56,11 @@ exports.config = {
         "appium:platformVersion": "11",
         "appium:deviceName": "HONOR",
         "appium:automationName": "UiAutomator2",
-        "appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
-        //"appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
+        //"appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
+       // "appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
       
-       // "appium:appPackage": "com.wdiodemoapp",
-        //"appium:appActivity": "com.wdiodemoapp.SplashActivity",
+       "appium:appPackage": "com.wdiodemoapp",
+        "appium:appActivity": "com.wdiodemoapp.SplashActivity",
 
     }],
     //
