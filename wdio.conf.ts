@@ -56,15 +56,9 @@ exports.config = {
         "appium:platformVersion": "11",
         "appium:deviceName": "HONOR",
         "appium:automationName": "UiAutomator2",
-<<<<<<< HEAD
       // "appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
        // "appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
-        //Test
-=======
-        //"appium:app": "D:\\Dummy\\Android-NativeDemoApp-0.4.0.apk",
-        //"appium:app": "D:\\Dummy\\ApiDemos-debug.apk",
       
->>>>>>> f6d4b3aef722e0f703d09a8a71a2bfced6039079
         "appium:appPackage": "com.wdiodemoapp",
         "appium:appActivity": "com.wdiodemoapp.SplashActivity",
 
@@ -117,17 +111,6 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: [
-<<<<<<< HEAD
-        ['appium',{
-
-            args:{
-                address : 'localhost',
-                port : 4723
-            }
-        }]
-
-],
-=======
         
         ['appium',{
     
@@ -140,7 +123,6 @@ exports.config = {
 
     }]
     ],
->>>>>>> f6d4b3aef722e0f703d09a8a71a2bfced6039079
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
